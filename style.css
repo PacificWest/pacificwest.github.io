@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
 
 * {
   font-family: 'Playfair Display', serif;
@@ -27,8 +28,13 @@ a { text-decoration:none; }
   padding:1.5em;
   margin:1em;
   opacity:0.85;
+  font-family: 'Russo One', sans-serif;
   background-color:#eadfdf;
   color:#080807;
+}
+
+.top-header > div > h3 {
+  font-size:xx-large;
 }
 
 .top-header > div > a {

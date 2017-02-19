@@ -32,9 +32,7 @@ class HomePage extends React.Component {
           <div className="app-container">
 	    <Well className={'top-header'}>
 	      <div>
-		<h2>
-		  - Pacific West Pool and Spa -
-		</h2>
+		<h3>Pacific West Pool and Spa</h3>
 		{contact}
 	      </div>
 	    </Well>
