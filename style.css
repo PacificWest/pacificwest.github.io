@@ -5,21 +5,28 @@
   text-align:center;
 }
 
-a {
-  text-decoration:none;
-}
+a { text-decoration:none; }
+
+/* body { */
+/*   background-color:blue; */
+/* } */
+
 .top-header {
-  background-image:url(./pool.jpg);
+  background-image:url(./infinity.jpg);
   background-size:cover;
 }
+
+/* .top-about-us { */
+/*   background-color:red; */
+/* } */
 
 .top-header > div {
   border-radius:5px;
   padding:1.5em;
   margin:1em;
   opacity:0.85;
-  background-color:#407775;
-  color:white;
+  /* background-color:#407775; */
+  color:#080807;
 }
 
 .top-header > div > a {
