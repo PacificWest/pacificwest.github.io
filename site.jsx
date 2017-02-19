@@ -42,13 +42,10 @@ class HomePage extends React.Component {
 	      </p>
 	    </Well>
 
-	    <Well className={'clients'}>
-	      Satisfied clients
-	    </Well>
-
 	    <Well className={'contact'}>
 	      <footer>
-		Contact information
+		<p>14747 Lull St.</p>
+		<p>Van Nuys, CA 91405</p>
 	      </footer>
 	    </Well>
 

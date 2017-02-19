@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
-* {
-  font-family: 'Playfair Display', serif;
-}
+* { font-family: 'Playfair Display', serif; }
 
 .top-header {
   min-height:600px;
@@ -27,6 +25,11 @@
 }
 
 .about-us-desc {
+  text-align:center;
+  font-size:x-large;
+}
+
+footer > p {
   text-align:center;
   font-size:x-large;
 }
