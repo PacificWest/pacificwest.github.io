@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "project",
+  "scripts": {
+    "build": "babel --presets react site.jsx > site.js && node site.js"
+  },
+  "author": "Edgar Aroutiounian",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-react": "^6.23.0",
+    "nodemon": "^1.11.0"
+  }
+}

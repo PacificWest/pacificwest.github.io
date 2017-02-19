@@ -1,0 +1,16 @@
+.top-header {
+  min-height:600px;
+  background-image:url(./pool.jpg);
+}
+
+.top-header > h2 {
+  padding:1.5em;
+  opacity:0.85;
+  text-align:center;
+  background-color:#407775;
+  color:white;
+}
+
+.top-header > h2> a {
+  color:black;
+}
