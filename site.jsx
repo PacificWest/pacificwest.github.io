@@ -7,7 +7,7 @@ const React = require('react'),
       Table = require('react-bootstrap').Table;
 
 const contact = <a href={'tel:818-781-0864'}>818-781-0864</a>;
-const hours_of_op = <p> Monday 6AM-3PM; Tuesday-Friday 9AM-5PM</p>;
+const hours_of_op = <p>M 6AM-3PM; T-F 9AM-5PM</p>;
 
 class HomePage extends React.Component {
   render () {
