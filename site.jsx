@@ -2,12 +2,15 @@
 const React = require('react'),
       fs = require('fs'),
       ReactDOMServer = require('react-dom/server'),
-      PageHeader = require('react-bootstrap').PageHeader,
-      Well = require('react-bootstrap').Well,
-      Table = require('react-bootstrap').Table;
+      Well = require('react-bootstrap').Well;
 
 const contact = <a href={'tel:818-781-0864'}>818-781-0864</a>;
-const hours_of_op = <p>M 6AM-3PM; T-F 9AM-5PM</p>;
+const hours_of_op = (
+  <div>
+    <p>Monday 6AM-3PM</p>
+    <p>Tuesday-Friday 9AM-5PM</p>
+  </div>
+);
 
 class HomePage extends React.Component {
   render () {
@@ -47,7 +50,8 @@ class HomePage extends React.Component {
 	    <Well className={'contact'}>
 	      <footer>
 		{hours_of_op}
-		<p>14747 Lull St, Van Nuys, CA 91405</p>
+		<p>14747 Lull St.</p>
+		<p>Van Nuys, CA 91405</p>
 		<p>
 		  <a target={'_top'}
 		     href={'mailto:pacwestpools@attn.net?Subject=Pool%20question'}>

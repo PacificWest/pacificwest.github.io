@@ -3,6 +3,7 @@
 * {
   font-family: 'Playfair Display', serif;
   text-align:center;
+  font-size:x-large;
 }
 
 a { text-decoration:none; }
@@ -32,15 +33,9 @@ a { text-decoration:none; }
 .top-header > div > a {
   cursor:pointer;
   color:black;
-  font-size:x-large;
 }
 
-.about-us-desc {
-  font-size:x-large;
-}
-
-footer > p {
-  font-size:x-large;
+* {
 }
 
 @media (max-height:500px) {
