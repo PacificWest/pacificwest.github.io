@@ -3,7 +3,6 @@
 * { font-family: 'Playfair Display', serif; }
 
 .top-header {
-  min-height:600px;
   background-image:url(./pool.jpg);
   background-size:cover;
 }
@@ -32,4 +31,17 @@
 footer > p {
   text-align:center;
   font-size:x-large;
+}
+
+@media (max-height:500px) {
+
+  .top-header {
+    min-height:300px;
+  }
+}
+
+@media (min-width:400px) {
+  .top-header {
+    min-height:600px;
+  }
 }

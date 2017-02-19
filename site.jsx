@@ -6,6 +6,9 @@ const React = require('react'),
       Well = require('react-bootstrap').Well,
       Table = require('react-bootstrap').Table;
 
+const contact = <a href={'tel:818-781-0864'}>818-781-0864</a>;
+const hours_of_op = <p> Monday 6AM-3PM; Tuesday-Friday 9AM-5PM</p>;
+
 class HomePage extends React.Component {
   render () {
     const bstrap =
@@ -24,13 +27,12 @@ class HomePage extends React.Component {
         </head>
         <body>
           <div className="app-container">
-
 	    <Well className={'top-header'}>
 	      <div>
 		<h2>
 		  - Pacific West Pool and Spa -
 		</h2>
-		<a href={'tel:818-781-0864'}>818-781-0864</a>
+		{contact}
 	      </div>
 	    </Well>
 	    
@@ -42,13 +44,25 @@ class HomePage extends React.Component {
 	      </p>
 	    </Well>
 
-	    <Well className={'contact'}>
-	      <footer>
-		<p>14747 Lull St.</p>
-		<p>Van Nuys, CA 91405</p>
-	      </footer>
+	    <Well className={'services'}>
+	      <div>
+		Work we do
+	      </div>
 	    </Well>
 
+	    <Well className={'contact'}>
+	      <footer>
+		{hours_of_op}
+		<p>14747 Lull St, Van Nuys, CA 91405.</p>
+		<p>
+		  <a target={'_top'}
+		     href={'mailto:pacwestpools@attn.net?Subject=Pool%20question'}>
+		    pacwestpools@attn.net
+		  </a>
+		</p>
+		<p>{contact}</p>
+	      </footer>
+	    </Well>
           </div>
         </body>
       </html>
