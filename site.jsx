@@ -44,12 +44,6 @@ class HomePage extends React.Component {
 	      </p>
 	    </Well>
 
-	    <Well className={'services'}>
-	      <div>
-		Work we do
-	      </div>
-	    </Well>
-
 	    <Well className={'contact'}>
 	      <footer>
 		{hours_of_op}

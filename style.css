@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
-* { font-family: 'Playfair Display', serif; }
+* {
+  font-family: 'Playfair Display', serif;
+  text-align:center;
+}
 
+a {
+  text-decoration:none;
+}
 .top-header {
   background-image:url(./pool.jpg);
   background-size:cover;
@@ -12,7 +18,6 @@
   padding:1.5em;
   margin:1em;
   opacity:0.85;
-  text-align:center;
   background-color:#407775;
   color:white;
 }
@@ -24,12 +29,10 @@
 }
 
 .about-us-desc {
-  text-align:center;
   font-size:x-large;
 }
 
 footer > p {
-  text-align:center;
   font-size:x-large;
 }
 
