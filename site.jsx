@@ -53,11 +53,11 @@ class HomePage extends React.Component {
 	    <Well className={'contact'}>
 	      <footer>
 		{hours_of_op}
-		<p>14747 Lull St, Van Nuys, CA 91405.</p>
+		<p>14747 Lull St, Van Nuys, CA 91405</p>
 		<p>
 		  <a target={'_top'}
 		     href={'mailto:pacwestpools@attn.net?Subject=Pool%20question'}>
-		    pacwestpools@attn.net
+		    pacwestpools@att.net
 		  </a>
 		</p>
 		<p>{contact}</p>
