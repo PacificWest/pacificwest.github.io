@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+* {
+  font-family: 'Playfair Display', serif;
+}
+
 .top-header {
   min-height:600px;
   background-image:url(./pool.jpg);
+  background-size:cover;
 }
 
-.top-header > h2 {
+.top-header > div {
   padding:1.5em;
   opacity:0.85;
   text-align:center;
@@ -11,6 +18,7 @@
   color:white;
 }
 
-.top-header > h2> a {
+.top-header > div > a {
+  cursor:pointer;
   color:black;
 }

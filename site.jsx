@@ -30,12 +30,14 @@ class HomePage extends React.Component {
           <div className="app-container">
 
 	    <Well className={'top-header'}>
-	      <h2>
-		Pacific West Pool and Spa - {' '}
+	      <div>
+		<h2>
+		  - Pacific West Pool and Spa -
+		</h2>
 		<a href={'tel:818-781-0864'}>818-781-0864</a>
-	      </h2>
+	      </div>
 	    </Well>
-
+	    
 	    <Well className={'top-about-us'}>
 	      <p>
 		We service pools
