@@ -23,6 +23,7 @@ a { text-decoration:none; }
 
 .top-header > div {
   border-radius:5px;
+  font-size:large;
   padding:1.5em;
   margin:1em;
   opacity:0.85;
