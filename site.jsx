@@ -20,7 +20,7 @@ class HomePage extends React.Component {
       <html>
         <head>
           <meta charSet={'utf-8'}/>
-	  <title>Pacific Pools and Spa</title>
+	  <title>Pacific West Pool and Spa</title>
 	  <meta name={"Pacific Pools and Spa"}
 		content={"Quality pool cleaning and repairwork"}/>
           <meta name={"viewport"}
