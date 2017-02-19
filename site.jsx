@@ -6,10 +6,6 @@ const React = require('react'),
       Well = require('react-bootstrap').Well,
       Table = require('react-bootstrap').Table;
 
-const trailing_bottom = null;
-
-
-
 class HomePage extends React.Component {
   render () {
     const bstrap =
@@ -39,8 +35,10 @@ class HomePage extends React.Component {
 	    </Well>
 	    
 	    <Well className={'top-about-us'}>
-	      <p>
-		We service pools
+	      <p className={'about-us-desc'}>
+		Servicing the Greater Los Angeles Area for over 20 years.
+		Experience with residential and commercial properties.
+		Swimming pool maintenance and repair.
 	      </p>
 	    </Well>
 
